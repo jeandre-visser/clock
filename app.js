@@ -35,4 +35,8 @@ setInterval(() => {
   h.style.strokeDashoffset = 566 - (566 * hr) / 12; // 12 hrs
   m.style.strokeDashoffset = 566 - (566 * min) / 60; // 60 minutes in hour
   s.style.strokeDashoffset = 566 - (566 * sec) / 60; // 60 seconds in minute
+
+  hr_ball.style.transform = `rotate(${hr * 30}deg)`; // 360deg / 12 = 30deg
+  min_ball.style.transform = `rotate(${min * 6}deg)`; // 360deg / 60 = 6deg
+  sec_ball.style.transform = `rotate(${sec * 6}deg)`; 
 })
