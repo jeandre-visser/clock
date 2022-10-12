@@ -28,6 +28,10 @@ setInterval(() => {
   let m = document.getElementById('m');
   let s = document.getElementById('s');
 
+  let hr_ball = document.querySelector('.hr_ball');
+  let min_ball = document.querySelector('.min_ball');
+  let sec_ball = document.querySelector('.sec_ball');
+
   h.style.strokeDashoffset = 566 - (566 * hr) / 12; // 12 hrs
   m.style.strokeDashoffset = 566 - (566 * min) / 60; // 60 minutes in hour
   s.style.strokeDashoffset = 566 - (566 * sec) / 60; // 60 seconds in minute
