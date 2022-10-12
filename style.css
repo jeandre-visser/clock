@@ -68,6 +68,9 @@ circle:nth-child(2) {
   position: absolute;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .ball::before {
@@ -76,4 +79,5 @@ circle:nth-child(2) {
   height: 20px;
   content: "";
   background-color: var(--clr);
+  border-radius: 100%;
 }
