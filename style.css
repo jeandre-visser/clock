@@ -51,6 +51,7 @@ circle {
 
 circle:nth-child(2) {
   stroke: var(--clr);
+  stroke-dasharray: 567;
 }
 
 .clock .ap {
@@ -58,6 +59,6 @@ circle:nth-child(2) {
   font-size: 3em;
   display: flex;
   align-items: center;
-  transform: translateX(-30px);
+  transform: translateX(-40px);
  }
 
