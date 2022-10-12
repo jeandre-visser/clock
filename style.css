@@ -71,6 +71,7 @@ circle:nth-child(2) {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  z-index: 100;
 }
 
 .ball::before {
