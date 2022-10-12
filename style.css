@@ -25,12 +25,19 @@ body {
 
 .clock .circles {
   width: 200px;
+  height: 200px;
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
   font-size: 3em;
   font-weight: 600;
+}
+
+.clock .circles svg {
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 .clock .ap {
