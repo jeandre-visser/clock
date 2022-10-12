@@ -8,6 +8,11 @@ let min = new Date().getMinutes();
 let sec = new Date().getSeconds();
 let am = hr >= 12 ? 'PM' : 'AM';
 
+// 24 hr to 12 hr clock conversion
+if (hr > 12) {
+  hr = hr - 12
+};
+
 hrs.innerHTML = hr;
 mins.innerHTML = min;
 secs.innerHTML = sec;
