@@ -34,10 +34,19 @@ body {
   font-weight: 600;
 }
 
-.clock .circles svg {
+svg {
   position: relative;
   width: 200px;
   height: 200px;
+}
+
+circle {
+  height: 100%;
+  width: 100%;
+  fill: none;
+  stroke: black;
+  stroke-width: 8;
+  transform: translate(10px, 10px);
 }
 
 .clock .ap {
