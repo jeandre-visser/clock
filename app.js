@@ -13,6 +13,10 @@ if (hr > 12) {
   hr = hr - 12
 };
 
+hr = (hr < 10) ? '0' + hr : hr;
+min = (min < 10) ? '0' + min : min;
+sec = (sec < 10) ? '0' + sec : sec;
+
 hrs.innerHTML = hr;
 mins.innerHTML = min;
 secs.innerHTML = sec;
