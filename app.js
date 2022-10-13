@@ -108,7 +108,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 5pm - 6pm //
+  // 5pm - 6pm
   if (hr >= 17 && hr < 18) {
     body.style.background = "-webkit-linear-gradient(to top, #3075FF, #31A6FF, #31A6FF, #FF830A)"; 
     body.style.zIndex = "0";
@@ -116,7 +116,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 6pm - 7pm //
+  // 6pm - 7pm
   if (hr >= 18 && hr < 19) {
     body.style.background = "-webkit-linear-gradient(to top, #3061FF, #3075FF, #3069FF, #31A6FF, #FF830A, #FFB419)"; 
     body.style.zIndex = "0";
@@ -124,7 +124,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 7pm - 8pm //
+  // 7pm - 8pm
   if (hr >= 19 && hr < 20) {
     body.style.background = "-webkit-linear-gradient(to top, #3061FF, #3075FF, #3069FF, #FF830A, #FFA31B, #FFB419)"; 
     body.style.zIndex = "0";
