@@ -45,9 +45,12 @@ circle {
   width: 100%;
   fill: none;
   stroke: black;
-  opacity: 85%;
   stroke-width: 12;
   transform: translate(10px, 10px);
+}
+
+circle:nth-child(1) {
+  opacity: 0.55;
 }
 
 circle:nth-child(2) {
