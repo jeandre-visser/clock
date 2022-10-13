@@ -15,27 +15,36 @@ setInterval(() => {
   // morning
   if (hr >= 5 && hr < 8) {
     body.style.backgroundColor = "#F3904F"; 
-    body.style.background = "-webkit-linear-gradient(to right, #3B4371, #F3904F)"; 
+    body.style.background = "-webkit-linear-gradient(to top, #3B4371, #F3904F)"; 
     body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to right, #3B4371, #F3904F)";
+    body.style.background =  "linear-gradient(to top, #3B4371, #F3904F)";
     body.style.color = "#FFF";
   };
 
-  // daytime
+  // day
   if (hr >= 8 && hr < 17) {
     body.style.backgroundColor = "#00B4DB"; 
-    body.style.background = "-webkit-linear-gradient(to right, #0083B0, #00B4DB)"; 
+    body.style.background = "-webkit-linear-gradient(to top, #0083B0, #00B4DB)"; 
     body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to right, #0083B0, #00B4DB)";
+    body.style.background =  "linear-gradient(to top, #0083B0, #00B4DB)";
     body.style.color = "#FFF";
   };
 
   // evening
-  if (hr >= 17 && hr < 19) {
+  if (hr >= 17 && hr < 20) {
     body.style.backgroundColor = "#355C7D"; 
-    body.style.background = "-webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D)"; 
+    body.style.background = "-webkit-linear-gradient(to top, #C06C84, #6C5B7B, #355C7D)"; 
     body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to right, #C06C84, #6C5B7B, #355C7D)";
+    body.style.background =  "linear-gradient(to top, #C06C84, #6C5B7B, #355C7D)";
+    body.style.color = "#FFF";
+  };
+
+  // night
+  if (hr >= 20 && hr < 5) {
+    body.style.backgroundColor = "#0f2027"; 
+    body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to top, #053752, #001A26)";
     body.style.color = "#FFF";
   };
 
