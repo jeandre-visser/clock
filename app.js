@@ -21,6 +21,17 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
+  // daytime
+  if (hr >= 8 && hr < 17) {
+    body.style.backgroundColor = "#00B4DB"; 
+    body.style.background = "-webkit-linear-gradient(to right, #0083B0, #00B4DB)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to right, #0083B0, #00B4DB)";
+    body.style.color = "#FFF";
+  };
+
+  
+
 
   // 24 hr to 12 hr clock conversion
   if (hr > 12) {
