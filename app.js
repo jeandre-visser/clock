@@ -14,17 +14,17 @@ setInterval(() => {
 
   //test
   if (hr >= 8 && hr < 17) {
-    body.style.backgroundColor = "#00B4DB"; 
-    body.style.background = "-webkit-linear-gradient(to top, #0083B0, #00B4DB)"; 
+    body.style.backgroundColor = "#0f2027"; 
+    body.style.background = "-webkit-linear-gradient(to top, #053752, #001A26)"; 
     body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to top, #0083B0, #00B4DB)";
+    body.style.background =  "linear-gradient(to top, #053752, #001A26)";
     body.style.color = "#FFF";
   };
 
 
 
   // 12am - 4am
-  if (hr >= 5 && hr < 8) {
+  if (hr >= 0 && hr < 4) {
     body.style.backgroundColor = "#F3904F"; 
     body.style.background = "-webkit-linear-gradient(to top, #3B4371, #F3904F)"; 
     body.style.zIndex = "0";
@@ -33,7 +33,7 @@ setInterval(() => {
   };
 
   // 4am - 5am
-  if (hr >= 20 && hr < 5) {
+  if (hr >= 4 && hr < 5) {
     body.style.backgroundColor = "#0f2027"; 
     body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
     body.style.zIndex = "0";
@@ -42,7 +42,7 @@ setInterval(() => {
   };
   
   // 5am - 6am
-  if (hr >= 20 && hr < 5) {
+  if (hr >= 5 && hr < 6) {
     body.style.backgroundColor = "#0f2027"; 
     body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
     body.style.zIndex = "0";
@@ -51,7 +51,7 @@ setInterval(() => {
   };
 
   // 6am - 7am
-  if (hr >= 20 && hr < 5) {
+  if (hr >= 6 && hr < 7) {
     body.style.backgroundColor = "#0f2027"; 
     body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
     body.style.zIndex = "0";
@@ -60,7 +60,7 @@ setInterval(() => {
   };
   
   // 7am - 8am
-  if (hr >= 20 && hr < 5) {
+  if (hr >= 7 && hr < 8) {
     body.style.backgroundColor = "#0f2027"; 
     body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
     body.style.zIndex = "0";
@@ -69,7 +69,7 @@ setInterval(() => {
   };
 
   // 8am - 9am
-  if (hr >= 20 && hr < 5) {
+  if (hr >= 8 && hr < 9) {
     body.style.backgroundColor = "#0f2027"; 
     body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
     body.style.zIndex = "0";
@@ -78,7 +78,7 @@ setInterval(() => {
   };
 
   // 9am - 10am
-  if (hr >= 20 && hr < 5) {
+  if (hr >= 9 && hr < 10) {
     body.style.backgroundColor = "#0f2027"; 
     body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
     body.style.zIndex = "0";
@@ -87,7 +87,7 @@ setInterval(() => {
   };
 
   // 10am - 11am
-  if (hr >= 20 && hr < 5) {
+  if (hr >= 10 && hr < 11) {
     body.style.backgroundColor = "#0f2027"; 
     body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
     body.style.zIndex = "0";
@@ -96,7 +96,7 @@ setInterval(() => {
   };
 
     // 11am - 12pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 11 && hr < 12) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -105,7 +105,7 @@ setInterval(() => {
     };
   
     // 12pm - 3pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 12 && hr < 15) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -114,7 +114,7 @@ setInterval(() => {
     };
 
     // 3pm - 4pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 15 && hr < 16) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -123,7 +123,7 @@ setInterval(() => {
     };
 
     // 4pm - 5pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 16 && hr < 17) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -132,7 +132,7 @@ setInterval(() => {
     };
 
     // 5pm - 6pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 17 && hr < 18) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -141,7 +141,7 @@ setInterval(() => {
     };
 
     // 6pm - 7pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 18 && hr < 19) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -150,7 +150,7 @@ setInterval(() => {
     };
 
     // 7pm - 8pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 19 && hr < 20) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -159,7 +159,7 @@ setInterval(() => {
     };
 
     // 8pm - 9pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 20 && hr < 21) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -168,7 +168,7 @@ setInterval(() => {
     };
 
     // 9pm - 10pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 21 && hr < 22) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
@@ -176,17 +176,17 @@ setInterval(() => {
       body.style.color = "#FFF";
     };
 
-    // 10pm - 11pm
-    if (hr >= 20 && hr < 5) {
+    // 10pm - 11pm //
+    if (hr >= 22 && hr < 23) {
       body.style.backgroundColor = "#0f2027"; 
-      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.background = "-webkit-linear-gradient(to top, #053752, #001A26)"; 
       body.style.zIndex = "0";
       body.style.background =  "linear-gradient(to top, #053752, #001A26)";
       body.style.color = "#FFF";
     };
 
     // 11pm - 12pm
-    if (hr >= 20 && hr < 5) {
+    if (hr >= 23 && hr < 24) {
       body.style.backgroundColor = "#0f2027"; 
       body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
       body.style.zIndex = "0";
