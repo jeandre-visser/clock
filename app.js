@@ -12,16 +12,7 @@ setInterval(() => {
 
   let body = document.querySelector('body');
 
-  // morning
-  if (hr >= 5 && hr < 8) {
-    body.style.backgroundColor = "#F3904F"; 
-    body.style.background = "-webkit-linear-gradient(to top, #3B4371, #F3904F)"; 
-    body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to top, #3B4371, #F3904F)";
-    body.style.color = "#FFF";
-  };
-
-  // day
+  //test
   if (hr >= 8 && hr < 17) {
     body.style.backgroundColor = "#00B4DB"; 
     body.style.background = "-webkit-linear-gradient(to top, #0083B0, #00B4DB)"; 
@@ -30,16 +21,27 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // evening
-  if (hr >= 17 && hr < 20) {
-    body.style.backgroundColor = "#355C7D"; 
-    body.style.background = "-webkit-linear-gradient(to top, #C06C84, #6C5B7B, #355C7D)"; 
+
+
+  // 12am - 4am
+  if (hr >= 5 && hr < 8) {
+    body.style.backgroundColor = "#F3904F"; 
+    body.style.background = "-webkit-linear-gradient(to top, #3B4371, #F3904F)"; 
     body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to top, #C06C84, #6C5B7B, #355C7D)";
+    body.style.background =  "linear-gradient(to top, #3B4371, #F3904F)";
     body.style.color = "#FFF";
   };
 
-  // night
+  // 4am - 5am
+  if (hr >= 20 && hr < 5) {
+    body.style.backgroundColor = "#0f2027"; 
+    body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+    body.style.color = "#FFF";
+  };
+  
+  // 5am - 6am
   if (hr >= 20 && hr < 5) {
     body.style.backgroundColor = "#0f2027"; 
     body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
@@ -48,6 +50,149 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
+  // 6am - 7am
+  if (hr >= 20 && hr < 5) {
+    body.style.backgroundColor = "#0f2027"; 
+    body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+    body.style.color = "#FFF";
+  };
+  
+  // 7am - 8am
+  if (hr >= 20 && hr < 5) {
+    body.style.backgroundColor = "#0f2027"; 
+    body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+    body.style.color = "#FFF";
+  };
+
+  // 8am - 9am
+  if (hr >= 20 && hr < 5) {
+    body.style.backgroundColor = "#0f2027"; 
+    body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+    body.style.color = "#FFF";
+  };
+
+  // 9am - 10am
+  if (hr >= 20 && hr < 5) {
+    body.style.backgroundColor = "#0f2027"; 
+    body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+    body.style.color = "#FFF";
+  };
+
+  // 10am - 11am
+  if (hr >= 20 && hr < 5) {
+    body.style.backgroundColor = "#0f2027"; 
+    body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+    body.style.color = "#FFF";
+  };
+
+    // 11am - 12pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+  
+    // 12pm - 3pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 3pm - 4pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 4pm - 5pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 5pm - 6pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 6pm - 7pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 7pm - 8pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 8pm - 9pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 9pm - 10pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 10pm - 11pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
+
+    // 11pm - 12pm
+    if (hr >= 20 && hr < 5) {
+      body.style.backgroundColor = "#0f2027"; 
+      body.style.background = "-webkit-linear-gradient(to top, #0f2027, #203a43, #001A26)"; 
+      body.style.zIndex = "0";
+      body.style.background =  "linear-gradient(to top, #053752, #001A26)";
+      body.style.color = "#FFF";
+    };
 
   // 24 hr to 12 hr clock conversion
   if (hr > 12) {
