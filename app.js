@@ -30,7 +30,14 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  
+  // evening
+  if (hr >= 17 && hr < 19) {
+    body.style.backgroundColor = "#355C7D"; 
+    body.style.background = "-webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to right, #C06C84, #6C5B7B, #355C7D)";
+    body.style.color = "#FFF";
+  };
 
 
   // 24 hr to 12 hr clock conversion
