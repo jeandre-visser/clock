@@ -10,13 +10,25 @@ setInterval(() => {
   let sec = new Date().getSeconds();
   let am = hr >= 12 ? 'PM' : 'AM';
 
+  let body = document.querySelector('body');
+
+  // morning
+  if (hr >= 5 && hr < 8) {
+    body.style.backgroundColor = "#F3904F"; 
+    body.style.background = "-webkit-linear-gradient(to right, #3B4371, #F3904F)"; 
+    body.style.zIndex = "0";
+    body.style.background =  "linear-gradient(to right, #3B4371, #F3904F)";
+    body.style.color = "#FFF";
+  };
+
+
   // 24 hr to 12 hr clock conversion
   if (hr > 12) {
     hr = hr - 12
   };
   
   min = (min < 10) ? '0' + min : min;
-  
+
   hrs.innerHTML = hr;
   mins.innerHTML = min;
   secs.innerHTML = sec;
@@ -37,4 +49,6 @@ setInterval(() => {
   hr_ball.style.transform = `rotate(${hr * 30}deg)`; // 360deg / 12 = 30deg
   min_ball.style.transform = `rotate(${min * 6}deg)`; // 360deg / 60 = 6deg
   sec_ball.style.transform = `rotate(${sec * 6}deg)`; 
-})
+
+});
+
