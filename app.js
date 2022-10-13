@@ -12,7 +12,7 @@ setInterval(() => {
 
   let body = document.querySelector('body');
 
-  // 12am - 4am //
+  // 12am - 4am
   if (hr >= 0 && hr < 4) {
     body.style.background = "-webkit-linear-gradient(to top, #121138, #01001F)"; 
     body.style.zIndex = "0";
@@ -20,7 +20,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 4am - 5am //
+  // 4am - 5am
   if (hr >= 4 && hr < 5) {
     body.style.background = "-webkit-linear-gradient(to top, #04006B, #01001F)"; 
     body.style.zIndex = "0";
@@ -28,7 +28,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
   
-  // 5am - 6am //
+  // 5am - 6am
   if (hr >= 5 && hr < 6) {
     body.style.background = "-webkit-linear-gradient(to top, #95450D, #11316B, #04006B)"; 
     body.style.zIndex = "0";
@@ -36,7 +36,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 6am - 7am //
+  // 6am - 7am
   if (hr >= 6 && hr < 7) {
     body.style.background = "-webkit-linear-gradient(to top, #D9770F, #D9940F, #1153AD)"; 
     body.style.zIndex = "0";
@@ -44,7 +44,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
   
-  // 7am - 8am //
+  // 7am - 8am
   if (hr >= 7 && hr < 8) {
     body.style.background = "-webkit-linear-gradient(to top, #1153AD, #D9940F, #D9770F)"; 
     body.style.zIndex = "0";
@@ -52,7 +52,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 8am - 9am //
+  // 8am - 9am
   if (hr >= 8 && hr < 9) {
     body.style.background = "-webkit-linear-gradient(to top, #1153AD, #1565E6, #D9940F, #D9770F)"; 
     body.style.zIndex = "0";
@@ -60,7 +60,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 9am - 10am //
+  // 9am - 10am
   if (hr >= 9 && hr < 10) {
     body.style.background = "-webkit-linear-gradient(to top, #1153AD, #1565E6, #176EFF, #EE9E21)"; 
     body.style.zIndex = "0";
@@ -68,7 +68,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 10am - 11am //
+  // 10am - 11am
   if (hr >= 10 && hr < 11) {
     body.style.background = "-webkit-linear-gradient(to top, #1153AD, #176EFF, #59B1FF)"; 
     body.style.zIndex = "0";
@@ -76,7 +76,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 11am - 12pm //
+  // 11am - 12pm
   if (hr >= 11 && hr < 12) {
     body.style.background = "-webkit-linear-gradient(to top, #004AFF, #176EFF, #59B1FFF)"; 
     body.style.zIndex = "0";
@@ -84,7 +84,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
   
-  // 12pm - 3pm //
+  // 12pm - 3pm
   if (hr >= 12 && hr < 15) {
     body.style.background = "-webkit-linear-gradient(to top, #004AFF, #176EFF, #314EFF)"; 
     body.style.zIndex = "0";
@@ -92,7 +92,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 3pm - 4pm //
+  // 3pm - 4pm
   if (hr >= 15 && hr < 16) {
     body.style.background = "-webkit-linear-gradient(to top, #004AFF, #176EFF, #314EFF)"; 
     body.style.zIndex = "0";
@@ -100,7 +100,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 4pm - 5pm //
+  // 4pm - 5pm
   if (hr >= 16 && hr < 17) {
     body.style.background = "-webkit-linear-gradient(to top, #004AFF, #31A6FF)"; 
     body.style.zIndex = "0";
@@ -132,7 +132,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 8pm - 9pm //
+  // 8pm - 9pm
   if (hr >= 20 && hr < 21) {
     body.style.background = "-webkit-linear-gradient(to top, #3061FF,#FF5A17, #FF830A, #FFA31B, #FFB419)"; 
     body.style.zIndex = "0";
@@ -140,7 +140,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 9pm - 10pm //
+  // 9pm - 10pm
   if (hr >= 21 && hr < 22) {
     body.style.background = "-webkit-linear-gradient(to top, #FFB419, #FF5A17, #2000FF, #13138F, #13138F)"; 
     body.style.zIndex = "0";
@@ -148,7 +148,7 @@ setInterval(() => {
     body.style.color = "#FFF";
   };
 
-  // 10pm - 11pm //
+  // 10pm - 11pm
   if (hr >= 22 && hr < 23) {
     body.style.background = "-webkit-linear-gradient(#FF5A17, #132390, #010963, #01093E)"; 
     body.style.zIndex = "0";
