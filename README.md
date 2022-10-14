@@ -1,6 +1,6 @@
 <h1>
   Digi Tock Clock
-  <img src="https://media.giphy.com/media/rWJRwQVItkY4E/giphy.gif" width="30px" marginTop="10px" />
+  <img src="https://media.giphy.com/media/rWJRwQVItkY4E/giphy.gif" width="30px" />
 </h1>
 
 A digital clock with three rings consisting of the hours, minutes and seconds which all fill as time progresses.
@@ -14,3 +14,4 @@ The background gradient changes throughout the day to set the mood for the speci
 Built with vanilla JavaScript, HTML, and CSS.
 
 ## Quick Glimpse
+![6pm](https://github.com/jeandre-visser/clock/blob/main/assets/6pm.png)
