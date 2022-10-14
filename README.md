@@ -16,5 +16,5 @@ Built with vanilla JavaScript, HTML, and CSS.
 ## Quick Glimpse :eyes:
 ![6pm](https://github.com/jeandre-visser/clock/blob/main/assets/6pm.png)
 ![8pm](https://github.com/jeandre-visser/clock/blob/main/assets/8pm.png)
-![9pm]()
+![9pm](https://github.com/jeandre-visser/clock/blob/main/assets/9pm.png)
 ![10pm]()
