@@ -38,9 +38,9 @@ setInterval(() => {
 
   // 6am - 7am
   if (hr >= 6 && hr < 7) {
-    body.style.background = "-webkit-linear-gradient(to top, #D9770F, #D9940F, #1153AD)"; 
+    body.style.background = "-webkit-linear-gradient(to top, #FF5A17, #D9770F, #D9940F, #1153AD)"; 
     body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to top, #D9770F, #D9940F, #1153AD)";
+    body.style.background =  "linear-gradient(to top, #FF5A17, #D9770F, #D9940F, #1153AD)";
     body.style.color = "#FFF";
   };
   
@@ -126,9 +126,9 @@ setInterval(() => {
 
   // 7pm - 8pm
   if (hr >= 19 && hr < 20) {
-    body.style.background = "-webkit-linear-gradient(to top, #3061FF, #3075FF, #3069FF, #FF830A, #FFA31B, #FFB419)"; 
+    body.style.background = "-webkit-linear-gradient(to top, #FF5A17, #D9770F, #D9940F, #1153AD)"; 
     body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to top, #3061FF, #3075FF, #3069FF, #FF830A, #FFA31B, #FFB419)";
+    body.style.background =  "linear-gradient(to top, #FF5A17, #D9770F, #D9940F, #1153AD)";
     body.style.color = "#FFF";
   };
 
