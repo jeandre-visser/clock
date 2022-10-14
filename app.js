@@ -30,9 +30,9 @@ setInterval(() => {
   
   // 5am - 6am
   if (hr >= 5 && hr < 6) {
-    body.style.background = "-webkit-linear-gradient(to top, #95450D, #11316B, #04006B)"; 
+    body.style.background = "-webkit-linear-gradient(to top, #FF5A17, #11316B, #04006B)"; 
     body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to top, #95450D, #11316B, #04006B)";
+    body.style.background =  "linear-gradient(to top, #FF5A17, #11316B, #04006B)";
     body.style.color = "#FFF";
   };
 
