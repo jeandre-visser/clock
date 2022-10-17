@@ -34,7 +34,7 @@ setInterval(() => {
   
   // 7am - 8am
   if (hr >= 7 && hr < 8) {
-    body.style = "--bkgClr:#1153AD, #D9940F, #D9770F";
+    body.style = "--bkgClr:#483ff2, #3f8af2, #D9940F, #D9770F";
   };
 
   // 8am - 9am
@@ -44,7 +44,7 @@ setInterval(() => {
 
   // 9am - 10am
   if (hr >= 9 && hr < 10) {
-    body.style = "--bkgClr:#1153AD, #1565E6, #176EFF, #EE9E21";
+    body.style = "--bkgClr:#1153AD, #1565E6, #176EFF, #EE9E21, #f2b33f";
   };
 
   // 10am - 11am
@@ -54,7 +54,7 @@ setInterval(() => {
 
   // 11am - 12pm
   if (hr >= 11 && hr < 12) {
-    body.style = "--bkgClr:#004AFF, #176EFF, #59B1FFF"; 
+    body.style = "--bkgClr:#004AFF, #176EFF, #59B1FF"; 
   };
   
   // 12pm - 3pm
