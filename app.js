@@ -86,18 +86,12 @@ setInterval(() => {
   
   // 12pm - 3pm
   if (hr >= 12 && hr < 15) {
-    body.style.background = "-webkit-linear-gradient(to top, #004AFF, #176EFF, #314EFF)"; 
-    body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to top, #004AFF, #176EFF, #314EFF)";
-    body.style.color = "#FFF";
+    body.style =  "--bkgClr:#004AFF, #176EFF, #314EFF, #FFF";
   };
 
   // 3pm - 4pm
   if (hr >= 15 && hr < 16) {
-    body.style.background = "-webkit-linear-gradient(to top, #004AFF, #176EFF, #314EFF)"; 
-    body.style.zIndex = "0";
-    body.style.background =  "linear-gradient(to top, #004AFF, #314EFF, #176EFF)";
-    body.style.color = "#FFF";
+    body.style =  "--bkgClr:#004AFF, #314EFF, #176EFF";
   };
 
   // 4pm - 5pm
