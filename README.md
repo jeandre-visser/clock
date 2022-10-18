@@ -18,9 +18,5 @@ Built with vanilla JavaScript, HTML, and CSS.
 Simply fork and clone this repo to your machine, then open the ```index.html``` file in your browser of choice and voila!
 
 ## Quick Glimpse :eyes:
-![6pm](https://github.com/jeandre-visser/clock/blob/main/assets/6pm.png)
-![8pm](https://github.com/jeandre-visser/clock/blob/main/assets/8pm.png)
-![9pm](https://github.com/jeandre-visser/clock/blob/main/assets/9pm.png)
-![10pm](https://github.com/jeandre-visser/clock/blob/main/assets/10pm.png)
 
 
