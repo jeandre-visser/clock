@@ -9,7 +9,9 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(-45deg, var(--bkgClr));
+  background: linear-gradient(-45deg, var(--bkgClr));
   background-size: 400% 400%;
+  -webkit-animation: gradient 20s ease infinite;
   animation: gradient 20s ease infinite;
   height: 100vh;
   z-index: 0;
@@ -100,7 +102,8 @@ circle:nth-child(2) {
   background: var(--clr);
   border-radius: 100%;
   transform: scale(1);
-	animation: pulse 1s infinite;
+	-webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
   box-shadow: 0 0 0 0 var(--clr);
 }
 
