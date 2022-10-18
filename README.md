@@ -19,4 +19,4 @@ Simply fork and clone this repo to your machine, then open the ```index.html``` 
 
 ## Quick Glimpse :eyes:
 
-
+![Gif](https://github.com/jeandre-visser/clock/blob/main/assets/screen-capture.gif)
