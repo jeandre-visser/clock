@@ -3,6 +3,8 @@
   <img src="https://media.giphy.com/media/rWJRwQVItkY4E/giphy.gif" width="30px"/>
 </h1>
 
+Link: https://digi-tock-clock.netlify.app/
+
 A digital clock with three rings consisting of the hours, minutes and seconds which all fill as time progresses.
 
 ## Dynamic Background
